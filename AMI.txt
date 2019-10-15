@@ -1,0 +1,36 @@
+Steps for my AMI
+
+As user ec2-user, performed the following steps:
+
+1. Install java-1.8 openjdk: `
+
+sudo apt install java-1.8.0-openjdk
+
+2. Add following lines to ~/.profile
+
+JAVA_HOME="/usr/lib/jvm/java-8-openjdk-amd64"
+export PATH=$PATH:$JAVA_HOME/bin
+export HADOOP_HOME=/home/ubuntu/hadoop
+export PATH=$PATH:$HADOOP_HOME/bin
+export HADOOP_CONF_DIF=/home/ubuntu/hadoop/etc/hadoop
+
+# Hadoop
+
+
+3. Install latest stable hadoop to ec2-user home dir (2.7.4)
+
+cd ~
+wget http://apache.mirrors.ionfish.org/hadoop/common/hadoop-3.2.1/hadoop-3.2.1.tar.gz
+tar -zxvf hadoop-3.2.1.tar.gz
+
+
+My AMI:
+
+AMI ID: ami-0597b5282880d2404
+
+AMI Name: Cs-643-Cloud-Srinath-koilakonda
+
+Owner: 184366793262
+
+Source: 184366793262/Cs-643-Cloud-Srinath-koilakonda
+
