@@ -8,7 +8,15 @@ And note that the cluster it built loosely based on the steps listed here: https
 
 check the AMI.txt to base setup of the linux machine. 
 ## My AMI
+My AMI:
 
+AMI ID: ami-0597b5282880d2404
+
+AMI Name: Cs-643-Cloud-Srinath-koilakonda
+
+Owner: 184366793262
+
+Source: 184366793262/Cs-643-Cloud-Srinath-koilakonda
 
 ## Configure Cluster
 
